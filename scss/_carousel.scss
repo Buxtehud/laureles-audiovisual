@@ -1,0 +1,27 @@
+.clientes{
+    text-align: center;
+}
+
+.clientes__titulo{
+    @extend.clientes
+}
+
+.clientes__carousel {
+    @extend.clientes;
+    margin: 15px;
+}
+
+.clientes__carousel--layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes__carousel--img{
+    height: 100px;
+    width: auto;
+}
+
+.clientes__carousel--fit{
+    height: fit-content;
+}

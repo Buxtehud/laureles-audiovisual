@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="fotografía, mascotas, músicos, banda, videos musicales, chanda, eco, laureles audiovisual">
+    <link rel = "icon" href = "./images/logoLaureles.jpg" type = "image/x-icon">
+    <title>Laureles Audiovisual</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap" rel="stylesheet">
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</head>
+
+<body>
+    <header id="top" class="navBox">
+        <nav id="mySidenavCont" class="navBox__mobile">
+            <span style="cursor:pointer" class="navBox__mobile__hamMenu" onclick="openNav()"><i class="fa fa-bars"></i>
+                Menu</span>
+            <div class="navBox__mobile__sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn navBox__mobile__sidenav--style"
+                    onclick="closeNav()">&times;</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./index.html">Inicio</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./pages/galeria.html">Galería</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./pages/chandas.html">Chandas</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./pages/eco.html">Eco</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./pages/sobre-mi.html">Sobre mí</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./pages/contacto.html">Contacto</a>
+            </div>
+
+            <div>
+                <a class="navbar-brand" href="./index.html"><img height="70" src="./images/logoLaureles.jpg"
+                        alt="Logotipo Laureles Audiovisual" class='navBox__mobile__logo'></a>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-md navBox__desktop">
+
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse col-md-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/galeria.html">Galería</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./pages/chandas.html">Chandas</a></li>
+                                <li><a class="dropdown-item" href="./pages/eco.html">Eco</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logoContainer">
+                    <a class="navbar-brand" href="./index.html"><img height="70" src="./images/logoLaureles.jpg"
+                            alt="Logotipo Laureles Audiovisual" class='navBox__desktop__logo'></a>
+                </div>
+                <!--Subcontenedor 2-->
+                <div class="collapse navbar-collapse col-md-5 navBox__desktop--izq" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="./pages/sobre-mi.html">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Hero-->
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold" style="color:#272525;">Laureles Audiovisual</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at alias nulla
+                mollitia. Magnam perspiciatis repudiandae vero quo, laboriosam dicta, tenetur quas ullam adipisci illum
+                a vitae quia sint odio?</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <a href="#contacto"><button type="button"
+                        class="btn btn-primary btn-lg px-4 me-sm-3">Hablémos</button></a>
+            </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="./images/pexels-element-digital-1051076.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="" width="600" height="400" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+
+    <!--Servicios que ofrece el negocio-->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-sm-4 serviciosBox">
+                <div class="card" style="width: 23rem;">
+                    <img src="./images/victor-grabarczyk-2pbnDRhXc6Q-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title serviciosBox--titulo">Chandas</h5>
+                        <p class="card-text">Capturamos lo mejor de tu mascota con fotos perfectas</p>
+                        <a href="./pages/chandas.html" class="btn btn-primary boton">Saber más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 serviciosBox">
+                <div class="card up-hover" style="width: 23rem;">
+                    <img src="./images/kyle-ashton-ZgjlBP_mDjQ-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title serviciosBox--titulo">Eco</h5>
+                        <p class="card-text">La mejor opción para congelar el sonido es con una foto de ti y tu
+                            instrumento</p>
+                        <a href="./pages/eco.html" class="btn btn-primary boton">Saber más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carrousel de clientes -->
+
+    <h3 class="center my-3 py-2 clientes__titulo">Lo que dicen nuestros clientes</h3>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="clientes__carousel">
+                    <div class="clientes__carousel--layout">
+                        <img class="clientes__carousel--img" src="./images/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+                            alt="Foto cliente">
+                        <p class="clientes__carousel--fit"><span><i
+                                    class="fa fa-quote-left fa-pull-left fa-2x"></i></span>La mejor fotógrafa que mi
+                            mascota pudo encontrar.<span><i class="fa fa-quote-right fa-pull-right fa-2x"></i></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="clientes__carousel">
+                    <div class="clientes__carousel--layout">
+                        <img class="clientes__carousel--img" src="./images/tim-mossholder-eivYBKv3MAs-unsplash.jpg"
+                            alt="Foto cliente">
+                        <p class="clientes__carousel--fit"><span><i
+                                    class="fa fa-quote-left fa-pull-left fa-2x"></i></span>No pudimos encontrar mejores
+                            fotos para la banda.<span><i class="fa fa-quote-right fa-pull-right fa-2x"></i></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="clientes__carousel">
+                    <div class="clientes__carousel--layout">
+                        <img class="clientes__carousel--img" src="./images/alireza-esmaeeli-wa0eceyrXuE-unsplash.jpg"
+                            alt="Foto cliente">
+                        <p class="clientes__carousel--fit"><span><i
+                                    class="fa fa-quote-left fa-pull-left fa-2x"></i></span>Mi perro quedó encantado con
+                            al fotógrafa.<span><i class="fa fa-quote-right fa-pull-right fa-2x"></i></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <div class="form">
+            <form action="#">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" name="name" id="name">
+                <br>
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" name="email" id="email">
+                <br>
+                <label for="servicioEscogido" class="form-label">¿Qué servicio quieres contratar?</label>
+                <select name="servicioEscogido" class="form-select" id="servicioEscogido">
+                    <option value="" selected disabled hidden>Seleccione una opción</option>
+                    <option value="chandas">Chandas</option>
+                    <option value="eco">Eco</option>
+                </select>
+
+                <div class="btn-group col-12 my-3 py-3" role="group" aria-label="enviar-limpiar">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="reset" class="btn btn-danger" value="Limpiar">
+                </div>
+
+            </form>
+        </div>
+
+        <!--Botón para regresar a la parte superior de la página-->
+        <div class="toTop">
+            <a href="#top" id="toTop"><i class="fa fa-chevron-circle-up fa-3x"></i> <span>Al inicio</span></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!--Iconos redes sociales-->
+        <div class="footer__redes">
+            <p>Visítanos en:</p>
+            <div class="footer__redes__iconos">
+                <a href="http://www.facebook.com/" target="_blank"><i
+                        class="fa fa-facebook-square fa-2x footer__redes__iconos--color"></i></a>
+                <a href="http://www.instagram.com/" target="_blank"><i
+                        class="fa fa-instagram fa-2x footer__redes__iconos--color"></i></a>
+                <a href="http://www.youtube.com/" target="_blank"><i
+                        class="fa fa-youtube-play fa-2x footer__redes__iconos--color"></i></a>
+            </div>
+        </div>
+
+        <div class="footer__datos">
+            <p>Dirección:</p>
+            <p>Calle1, 1234, Ciudad</p>
+            <p>Teléfono:</p>
+            <p>12345678</p>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.js"></script>
+    
+</body>
+
+</html>

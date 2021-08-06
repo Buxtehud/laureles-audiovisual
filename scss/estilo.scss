@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@import "nav";
+
+@import "servicios";
+
+@import "carousel";
+
+@import "form";
+
+#toTop {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #818181;
+}
+
+#toTop:visited{
+    color: #818181;
+}
+
+#toTop span{
+    font-size: 0.8em;
+}
+
+.toTop{
+    align-self: flex-end;
+}
+
+@import "footer";
+
+#dog1{
+    width: 100%;
+}

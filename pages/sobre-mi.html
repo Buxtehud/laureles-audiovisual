@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="fotografía, sobre mi, youtube, videos, Laureles Audiovisual, Laureles">
+    <meta name="description" content="En Laureles Audiovisual te ofrecemos mucha calidad en fotografía y vídeos para que puedas capturar los detalles más importantes.">
+    <title>Sobre mí | Laureles Audiovisual</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap" rel="stylesheet">
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</head>
+
+<body>
+    <header id="top" class="navBox">
+        <nav id="mySidenavCont" class="navBox__mobile">
+            <span style="cursor:pointer" class="navBox__mobile__hamMenu" onclick="openNav()"><i class="fa fa-bars"></i>
+                Menu</span>
+            <div class="navBox__mobile__sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn navBox__mobile__sidenav--style"
+                    onclick="closeNav()">&times;</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="../index.html">Inicio</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./galeria.html">Galería</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./chandas.html">Chandas</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition" href="./eco.html">Eco</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./sobre-mi.html">Sobre mí</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./contacto.html">Contacto</a>
+            </div>
+
+            <div>
+                <a class="navbar-brand" href="../index.html"><img height="70" src="../images/logoLaureles.jpg"
+                        alt="Logotipo Laureles Audiovisual" class='navBox__mobile__logo'></a>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-md navBox__desktop">
+
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse col-md-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./galeria.html">Galería</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./chandas.html">Chandas</a></li>
+                                <li><a class="dropdown-item" href="./eco.html">Eco</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logoContainer">
+                    <a class="navbar-brand" href="../index.html"><img height="70" src="../images/logoLaureles.jpg"
+                            alt="Logotipo Laureles Audiovisual" class='navBox__desktop__logo'></a>
+                </div>
+                <!--Subcontenedor 2-->
+                <div class="collapse navbar-collapse col-md-5 navBox__desktop--izq" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="./sobre-mi.html">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="display-4 fw-bold">Sobre mí</h1>
+                <p class="lead text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos eum at rem
+                    quas inventore doloribus dolore eius itaque porro, quibusdam iure iusto voluptatum facere ipsum
+                    accusamus quia vitae nam? Aliquam?</p>
+            </div>
+        </div>
+    </section>
+    <section class="text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d5zzAOUUEqc" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <footer class="footer">
+        <!--Iconos redes sociales-->
+        <div class="footer__redes">
+            <p>Visítanos en:</p>
+            <div class="footer__redes__iconos">
+                <a href="http://www.facebook.com/" target="_blank"><i
+                        class="fa fa-facebook-square fa-2x footer__redes__iconos--color"></i></a>
+                <a href="http://www.instagram.com/" target="_blank"><i
+                        class="fa fa-instagram fa-2x footer__redes__iconos--color"></i></a>
+                <a href="http://www.youtube.com/" target="_blank"><i
+                        class="fa fa-youtube-play fa-2x footer__redes__iconos--color"></i></a>
+            </div>
+        </div>
+
+        <div class="footer__datos">
+            <p>Dirección:</p>
+            <p>Calle1, 1234, Ciudad</p>
+            <p>Teléfono:</p>
+            <p>12345678</p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.js"></script>
+
+</body>
+
+</html>

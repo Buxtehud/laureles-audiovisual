@@ -1,0 +1,29 @@
+$gradiente1:#A7D7EE;
+$gradiente2:#5EBFEC;
+$colores:$gradiente1,$gradiente2;
+
+
+@mixin gradiente($direccion,$colors){
+    background-image: linear-gradient(to $direccion,$colors);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    @include gradiente(right,$colores);
+    padding: 0px 25px 0px 25px;
+}
+
+.footer__redes{
+    display: flex;
+    flex-direction: column;
+}
+.footer__redes__iconos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer__redes__iconos--color {
+    color: black;
+}

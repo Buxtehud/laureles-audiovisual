@@ -1,0 +1,13 @@
+.boton:hover {
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+
+.serviciosBox {
+    display: flex;
+    justify-content: center;
+}
+
+.serviciosBox--titulo {
+    color:#0B61DE;
+}

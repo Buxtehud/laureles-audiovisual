@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contacto, fotografía, Laureles Audiovisual, Laureles">
+    <title>Contacto | Laureles Audiovisual</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap" rel="stylesheet">
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</head>
+
+<body>
+    <header id="top" class="navBox">
+        <nav id="mySidenavCont" class="navBox__mobile">
+            <span style="cursor:pointer" class="navBox__mobile__hamMenu" onclick="openNav()"><i class="fa fa-bars"></i>
+                Menu</span>
+            <div class="navBox__mobile__sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn navBox__mobile__sidenav--style"
+                    onclick="closeNav()">&times;</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="../index.html">Inicio</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./galeria.html">Galería</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./chandas.html">Chandas</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition" href="./eco.html">Eco</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./sobre-mi.html">Sobre mí</a>
+                <a class="navBox__mobile__sidenav--style navBox__mobile__sidenav--transition"
+                    href="./contacto.html">Contacto</a>
+            </div>
+
+            <div>
+                <a class="navbar-brand" href="../index.html"><img height="70" src="../images/logoLaureles.jpg"
+                        alt="Logotipo Laureles Audiovisual" class='navBox__mobile__logo'></a>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-md navBox__desktop">
+
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse col-md-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./galeria.html">Galería</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./chandas.html">Chandas</a></li>
+                                <li><a class="dropdown-item" href="./eco.html">Eco</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logoContainer">
+                    <a class="navbar-brand" href="../index.html"><img height="70" src="../images/logoLaureles.jpg"
+                            alt="Logotipo Laureles Audiovisual" class='navBox__desktop__logo'></a>
+                </div>
+                <!--Subcontenedor 2-->
+                <div class="collapse navbar-collapse col-md-5 navBox__desktop--izq" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="./sobre-mi.html">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-12">
+                        <div class="wrapper">
+                            <div class="row">
+                                <div class="col-md-7 d-flex align-items-stretch">
+                                    <div class="contact-wrap w-100 p-md-5 p-4">
+                                        <h3 class="mb-4">Escríbenos</h3>
+                                        <form method="POST" id="contactForm" name="contactForm" novalidate="novalidate">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="name" id="name"
+                                                            placeholder="Nombre">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="email" id="email"
+                                                            placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="subject"
+                                                            id="subject" placeholder="Motivo">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="check">¿Desea suscribirse a nuestro Newsletter?</label>
+                                                        <input type="checkbox" name="check" id="check" value="1">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea name="message" class="form-control" id="message"
+                                                            cols="30" rows="7" placeholder="Mensaje"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="submit" value="Enviar Mensaje" class="btn btn-primary">
+                                                        <input type="reset" value="Limpiar" class="btn btn-danger">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 d-flex align-items-stretch">
+                                    <div class="text-contactInfo bg-primary w-100 p-lg-5 p-4">
+                                        <h3 class="mb-4 mt-md-4">Información de contacto</h3>
+                                        <div class="dbox w-100 d-flex align-items-start">
+                                            <div class="icono d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-map-marker"></span>
+                                            </div>
+                                            <div class="m-3 pl-3">
+                                                <p><span class="contact-marcado">Dirección</span> Ciudad de Buenos Aires, Argentina</p>
+                                            </div>
+                                        </div>
+                                        <div class="dbox w-100 d-flex align-items-center">
+                                            <div class="icono d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-phone"></span>
+                                            </div>
+                                            <div class="m-3 pl-3">
+                                                <p><span class="contact-marcado">Phone:</span> + 1235 2355 98</p>
+                                            </div>
+                                        </div>
+                                        <div class="dbox w-100 d-flex align-items-center">
+                                            <div class="icono d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-paper-plane"></span>
+                                            </div>
+                                            <div class="m-3 pl-3">
+                                                <p><span class="contact-marcado">Email:</span> info@yoursite.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <!--Iconos redes sociales-->
+        <div class="footer__redes">
+            <p>Visítanos en:</p>
+            <div class="footer__redes__iconos">
+                <a href="http://www.facebook.com/" target="_blank"><i
+                        class="fa fa-facebook-square fa-2x footer__redes__iconos--color"></i></a>
+                <a href="http://www.instagram.com/" target="_blank"><i
+                        class="fa fa-instagram fa-2x footer__redes__iconos--color"></i></a>
+                <a href="http://www.youtube.com/" target="_blank"><i
+                        class="fa fa-youtube-play fa-2x footer__redes__iconos--color"></i></a>
+            </div>
+        </div>
+
+        <div class="footer__datos">
+            <p>Dirección:</p>
+            <p>Calle1, 1234, Ciudad</p>
+            <p>Teléfono:</p>
+            <p>12345678</p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.js"></script>
+
+</body>
+
+</html>
