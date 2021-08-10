@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+@import "colores";
+
+@import "index";
+
 @import "nav";
 
 @import "servicios";
@@ -28,8 +32,6 @@ html {
 .toTop{
     align-self: flex-end;
 }
-
-@import "footer";
 
 #dog1{
     width: 100%;
