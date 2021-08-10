@@ -11,3 +11,42 @@
 .serviciosBox--titulo {
     color:#0B61DE;
 }
+
+.precios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+    @media only screen  and (max-width: 767px) {
+        padding: 50px;
+    }
+}
+
+.card-header {
+    background-color: #6B654B;
+}
+
+.card-header-chandas{
+    background-color: $chandas-2;
+}
+
+.card-header-eco{
+    background-color: $eco-2;
+    color: $laureles-1;
+}
+
+.card-body {
+    background-color: #ECDCB0;
+    border-color: #ECDCB0;
+}
+
+.card-body-chandas{
+    background-color: $chandas-3;
+}
+
+.card-body-eco{
+    background-color: $eco-3;
+}

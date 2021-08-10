@@ -4,7 +4,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins',sans-serif; }
 
 .hero {
   background-image: url(../images/pexels-element-digital-1051076.jpg);
@@ -74,11 +74,8 @@ html {
     flex-direction: row;
     justify-content: stretch;
     align-items: center;
-    background-color: #A7D7EE;
     height: 50px;
     column-gap: 40%; }
-  .navBox__mobile__logo {
-    border-radius: 50%; }
   .navBox__mobile__sidenav {
     height: 100%;
     width: 0;
@@ -118,16 +115,10 @@ html {
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    background-color: #A7D7EE;
-    height: 50px; }
+    height: 50px;
+    width: 100hw; }
   .navBox__desktop__logo {
-    border-radius: 50%;
-    width: 85px;
-    justify-content: center;
-    align-items: center;
-    flex: 10%; }
-  .navBox__desktop {
-    flex: 45%; }
+    height: 250px; }
   .navBox__desktop--izq {
     justify-content: flex-end; } }
 
@@ -141,6 +132,37 @@ html {
 
 .serviciosBox--titulo {
   color: #0B61DE; }
+
+.precios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px; }
+  @media only screen and (max-width: 767px) {
+    .precios {
+      padding: 50px; } }
+
+.card-header {
+  background-color: #6B654B; }
+
+.card-header-chandas {
+  background-color: #997862; }
+
+.card-header-eco {
+  background-color: #0B1F1F;
+  color: #A6D7EF; }
+
+.card-body {
+  background-color: #ECDCB0;
+  border-color: #ECDCB0; }
+
+.card-body-chandas {
+  background-color: #788A96; }
+
+.card-body-eco {
+  background-color: #807A7A; }
 
 .clientes, .clientes__titulo, .clientes__carousel {
   text-align: center; }
@@ -180,6 +202,24 @@ html {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.15); }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px 0px 25px;
+  background-color: #A6D7EF; }
+
+.footer__redes {
+  display: flex;
+  flex-direction: column; }
+
+.footer__redes__iconos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row; }
+
+.footer__redes__iconos--color {
+  color: black; }
+
 #toTop {
   display: flex;
   flex-direction: column;
@@ -197,3 +237,18 @@ html {
 
 #dog1 {
   width: 100%; }
+
+main {
+  color: #000500; }
+
+.laureles {
+  background-color: #A6D7EF; }
+
+.chandas {
+  background-color: #d8c1b1; }
+
+.eco {
+  background-color: #545454; }
+
+.text-muted-eco {
+  color: #A6D7EF; }

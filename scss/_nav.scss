@@ -12,13 +12,8 @@
         display:flex;
         flex-direction: row;
         @include flex-positioning(stretch,center);
-        background-color:#A7D7EE;
         height: 50px;
         column-gap: 40%;
-    }
-        
-    .navBox__mobile__logo {
-        border-radius: 50%;
     }
     
     .navBox__mobile__sidenav {
@@ -70,20 +65,14 @@
             @include flex-positioning(space-between,center);
             justify-content:space-between;
             align-items: center;
-            background-color:#A7D7EE;
             height: 50px;
+            width: 100hw;
         }
     
         .navBox__desktop__logo {
-            border-radius: 50%;
-            width:85px;
-            @include flex-positioning(center,center);
-            flex: 10%;
+            height: 250px;
         }
     
-        .navBox__desktop {
-            flex: 45%;
-        }
          
         .navBox__desktop--izq {
             justify-content:flex-end;

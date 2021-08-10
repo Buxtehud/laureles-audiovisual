@@ -1,17 +1,10 @@
-$gradiente1:#A7D7EE;
-$gradiente2:#5EBFEC;
-$colores:$gradiente1,$gradiente2;
+@import "colores";
 
-
-@mixin gradiente($direccion,$colors){
-    background-image: linear-gradient(to $direccion,$colors);
-}
-
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
-    @include gradiente(right,$colores);
     padding: 0px 25px 0px 25px;
+    background-color: $laureles-1;
 }
 
 .footer__redes{

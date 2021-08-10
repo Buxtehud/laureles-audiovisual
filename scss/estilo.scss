@@ -14,6 +14,8 @@ html {
 
 @import "form";
 
+@import "footer";
+
 #toTop {
     display: flex;
     flex-direction: column;
@@ -35,4 +37,22 @@ html {
 
 #dog1{
     width: 100%;
+}
+
+
+main {
+    color: $laureles-3;
+}
+.laureles{
+    background-color: $laureles-1;
+}
+.chandas{
+    background-color: $chandas-1;
+}
+.eco{
+    background-color: $eco-1;
+}
+
+.text-muted-eco {
+    color: $laureles-1;
 }
