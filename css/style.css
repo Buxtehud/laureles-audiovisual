@@ -204,21 +204,49 @@ html {
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  padding: 0px 25px 0px 25px;
-  background-color: #A6D7EF; }
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row; }
+  .footer -container {
+    width: 100hv;
+    padding: 0px 25px 0px 25px;
+    background-color: #A6D7EF; }
 
 .footer__redes {
   display: flex;
   flex-direction: column; }
+  .footer__redes p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center; }
 
 .footer__redes__iconos {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row; }
+  .footer__redes__iconos a {
+    margin: 10px;
+    padding: 10px; }
 
 .footer__redes__iconos--color {
   color: black; }
+
+.logo-footer {
+  width: 33hv; }
+
+.logo-footer-img {
+  width: 550px;
+  height: auto; }
+
+.footer__datos {
+  margin: 10px;
+  padding: 10px;
+  text-align: center; }
+
+.derechos {
+  text-align: center; }
+  .derechos span {
+    font-weight: 900; }
 
 #toTop {
   display: flex;

@@ -1,22 +1,60 @@
 @import "colores";
+@mixin margin($margin,$padding) {
+    margin:$margin;
+    padding:$padding;
+}
 
 .footer {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 25px 0px 25px;
-    background-color: $laureles-1;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    & -container{
+        width: 100hv;
+        padding: 0px 25px 0px 25px;
+        background-color: $laureles-1;
+    }
 }
 
 .footer__redes{
     display: flex;
     flex-direction: column;
+    p{
+        @include margin(10px,10px);
+        text-align: center;
+    }
 }
 .footer__redes__iconos {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
+    a{
+        @include margin(10px,10px);
+    }
+
 }
 
 .footer__redes__iconos--color {
     color: black;
+}
+
+.logo-footer{
+    width: 33hv;
+}
+
+.logo-footer-img {
+    width: 550px;
+    height: auto;
+}
+
+.footer__datos{
+    @include margin(10px,10px);
+    text-align: center;
+}
+
+.derechos {
+    text-align: center;
+    span {
+        font-weight: 900;
+    }
 }
