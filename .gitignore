@@ -1,5 +1,4 @@
 node_modules
-Laura copy 2.7z
-package-lock.json
-package.json
-_config.ymlgit
+*.7z
+*.yml
+*.c
