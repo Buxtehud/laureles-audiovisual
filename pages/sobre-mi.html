@@ -8,12 +8,12 @@
     <meta name="keywords" content="fotografía, sobre mi, youtube, videos, Laureles Audiovisual, Laureles">
     <meta name="description" content="En Laureles Audiovisual te ofrecemos mucha calidad en fotografía y vídeos para que puedas capturar los detalles más importantes.">
     <title>Sobre mí | Laureles Audiovisual</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
@@ -28,8 +28,11 @@
 <body>
     <header id="top" class="navBox">
         <nav id="mySidenavCont" class="navBox__mobile laureles">
-            <span style="cursor:pointer" class="navBox__mobile__hamMenu" onclick="openNav()"><i class="fa fa-bars"></i>
-                Menu</span>
+            <div class="navBox__mobile__hamMenu">
+                <i class="fa fa-bars"></i>
+                <span style="cursor:pointer" onclick="openNav()">Menu</span>
+            </div>
+    
             <div class="navBox__mobile__sidenav" id="mySidenav">
                 <a href="javascript:void(0)" class="closebtn navBox__mobile__sidenav--style"
                     onclick="closeNav()">&times;</a>
@@ -44,9 +47,8 @@
                     href="./contacto.html">Contacto</a>
             </div>
 
-            <div>
-                <a class="navbar-brand" href="../index.html"><img height="70" src="../images/Laureles AV_.png"
-                        alt="Logotipo Laureles Audiovisual" class='navBox__mobile__logo'></a>
+            <div class="navBox__mobile__logo">
+                <a href="../index.html"><img class="navBox__mobile__logo--img" src="../images/Laureles AV_.png" alt="Logotipo Laureles Audiovisual"></a>
             </div>
         </nav>
 

@@ -27,9 +27,12 @@
 
 <body>
     <header id="top" class="navBox">
-        <nav id="mySidenavCont" class="navBox__mobile eco">
-            <span style="cursor:pointer" class="navBox__mobile__hamMenu" onclick="openNav()"><i class="fa fa-bars"></i>
-                Menu</span>
+        <nav id="mySidenavCont" class="navBox__mobile laureles">
+            <div class="navBox__mobile__hamMenu">
+                <i class="fa fa-bars"></i>
+                <span style="cursor:pointer" onclick="openNav()">Menu</span>
+            </div>
+    
             <div class="navBox__mobile__sidenav" id="mySidenav">
                 <a href="javascript:void(0)" class="closebtn navBox__mobile__sidenav--style"
                     onclick="closeNav()">&times;</a>
@@ -44,13 +47,12 @@
                     href="./contacto.html">Contacto</a>
             </div>
 
-            <div>
-                <a class="navbar-brand" href="../index.html"><img height="70" src="../images/Laureles AV_.png"
-                        alt="Logotipo Laureles Audiovisual" class='navBox__mobile__logo'></a>
+            <div class="navBox__mobile__logo">
+                <a href="../index.html"><img class="navBox__mobile__logo--img" src="../images/Laureles AV_.png" alt="Logotipo Laureles Audiovisual"></a>
             </div>
         </nav>
 
-        <nav class="navbar navbar-expand-md navBox__desktop eco">
+        <nav class="navbar navbar-expand-md navBox__desktop laureles">
 
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
