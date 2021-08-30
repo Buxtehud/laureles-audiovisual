@@ -12,6 +12,11 @@
     color:#0B61DE;
 }
 
+.title-chandas {
+    color: $chandas-1;
+    text-shadow: 0 0 1px $eco-1, 0 0 1px $eco-1;
+}
+
 h2 {
     margin: 25px;
     padding: 25px;
@@ -40,16 +45,18 @@ h2 {
 }
 
 .card-header-eco{
-    background-color: $eco-2;
-    color: $laureles-1;
-}
-
-.card-body-eco{
-    background-color: $eco-3;
+    background-color: $eco-1;
+    color: white;
 }
 
 .background_chandas{
     background-image: url(../images/73977.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.background_eco{
+    background-image: url(../images/Eco/wes-hicks-MEL-jJnm7RQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }

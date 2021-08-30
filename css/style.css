@@ -167,6 +167,10 @@ html {
 .serviciosBox--titulo {
   color: #0B61DE; }
 
+.title-chandas {
+  color: #d8c1b1;
+  text-shadow: 0 0 1px #545454, 0 0 1px #545454; }
+
 h2 {
   margin: 25px;
   padding: 25px;
@@ -190,14 +194,16 @@ h2 {
   background-color: #d8c1b1; }
 
 .card-header-eco {
-  background-color: #0B1F1F;
-  color: #A6D7EF; }
-
-.card-body-eco {
-  background-color: #807A7A; }
+  background-color: #545454;
+  color: white; }
 
 .background_chandas {
   background-image: url(../images/73977.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.background_eco {
+  background-image: url(../images/Eco/wes-hicks-MEL-jJnm7RQ-unsplash.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -245,6 +251,10 @@ h2 {
   height: 50px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.15); }
+
+.form-group {
+  margin: 5px;
+  padding: 5px; }
 
 .opacity {
   background-color: #788A9650;
