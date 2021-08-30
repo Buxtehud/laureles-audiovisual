@@ -1,6 +1,11 @@
 html {
   scroll-behavior: smooth; }
 
+.opacity {
+  background-color: #788A9650;
+  box-shadow: 0 0 10px 15px #788A9650;
+  border-radius: 5px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +62,8 @@ html {
   margin: 5px;
   padding: 5px;
   font-weight: 400;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  background-color: #788A9650; }
 
 .botones:hover {
   background-color: #ECDCB0; }
@@ -84,12 +90,23 @@ html {
   .navBox__desktop {
     display: none; }
   .navBox__mobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-    align-items: center;
+    height: 50px; }
+  .navBox__mobile__logo {
     height: 50px;
-    column-gap: 40%; }
+    display: flex;
+    justify-content: center; }
+  .navBox__mobile__logo--img {
+    padding: 10px;
+    max-height: 100%; }
+  .navBox__mobile__hamMenu {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .navBox__mobile__hamMenu i, .navBox__mobile__hamMenu span {
+      font-size: 11px; }
   .navBox__mobile__sidenav {
     height: 100%;
     width: 0;
@@ -129,10 +146,13 @@ html {
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    width: 100hw; }
+    height: 55px;
+    width: 100hw;
+    padding: 25px; }
   .navBox__desktop__logo {
-    height: 250px; }
+    width: 150px;
+    height: auto;
+    padding: 25px; }
   .navBox__desktop--izq {
     justify-content: flex-end; } }
 
@@ -146,6 +166,11 @@ html {
 
 .serviciosBox--titulo {
   color: #0B61DE; }
+
+h2 {
+  margin: 25px;
+  padding: 25px;
+  font-size: 45px; }
 
 .precios {
   width: 100%;
@@ -162,21 +187,22 @@ html {
   background-color: #6B654B; }
 
 .card-header-chandas {
-  background-color: #997862; }
+  background-color: #d8c1b1; }
 
 .card-header-eco {
   background-color: #0B1F1F;
   color: #A6D7EF; }
 
-.card-body {
-  background-color: #ECDCB0;
-  border-color: #ECDCB0; }
-
-.card-body-chandas {
-  background-color: #788A96; }
-
 .card-body-eco {
   background-color: #807A7A; }
+
+.background_chandas {
+  background-image: url(../images/73977.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.imagen_Album {
+  width: 100%; }
 
 .clientes, .clientes__titulo, .clientes__carousel {
   text-align: center; }
@@ -216,23 +242,23 @@ html {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.15); }
 
+.opacity {
+  background-color: #788A9650;
+  box-shadow: 0 0 10px 15px #788A9650;
+  border-radius: 5px; }
+
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-direction: row; }
-  .footer -container {
-    width: 100hv;
-    padding: 0px 25px 0px 25px;
-    background-color: #A6D7EF; }
+  flex-direction: column;
+  padding: 25px; }
 
 .footer__redes {
   display: flex;
-  flex-direction: column; }
-  .footer__redes p {
-    margin: 10px;
-    padding: 10px;
-    text-align: center; }
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px; }
 
 .footer__redes__iconos {
   display: flex;
@@ -246,21 +272,27 @@ html {
   color: black; }
 
 .logo-footer {
-  width: 33hv; }
+  width: 480px;
+  margin: 5px;
+  padding: 5px; }
 
 .logo-footer-img {
-  width: 550px;
-  height: auto; }
-
-.footer__datos {
-  margin: 10px;
-  padding: 10px;
-  text-align: center; }
+  max-width: 100%; }
 
 .derechos {
   text-align: center; }
   .derechos span {
     font-weight: 900; }
+
+@media only screen and (max-width: 767px) {
+  .logo-footer {
+    width: 250px; }
+  .footer__redes__iconos {
+    font-size: 13px; }
+  .derechos p {
+    font-size: 9px; }
+  .derechos span {
+    font-size: 10px; } }
 
 #toTop {
   display: flex;

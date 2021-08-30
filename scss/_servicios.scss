@@ -12,6 +12,12 @@
     color:#0B61DE;
 }
 
+h2 {
+    margin: 25px;
+    padding: 25px;
+    font-size: 45px;
+}
+
 .precios {
     width: 100%;
     display: flex;
@@ -30,7 +36,7 @@
 }
 
 .card-header-chandas{
-    background-color: $chandas-2;
+    background-color: $chandas-1;
 }
 
 .card-header-eco{
@@ -38,15 +44,16 @@
     color: $laureles-1;
 }
 
-.card-body {
-    background-color: #ECDCB0;
-    border-color: #ECDCB0;
-}
-
-.card-body-chandas{
-    background-color: $chandas-3;
-}
-
 .card-body-eco{
     background-color: $eco-3;
+}
+
+.background_chandas{
+    background-image: url(../images/73977.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imagen_Album {
+    width: 100%;
 }

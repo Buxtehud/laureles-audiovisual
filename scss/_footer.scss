@@ -6,23 +6,17 @@
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    & -container{
-        width: 100hv;
-        padding: 0px 25px 0px 25px;
-        background-color: $laureles-1;
-    }
+    flex-direction: column;
+    padding: 25px;
 }
 
 .footer__redes{
     display: flex;
     flex-direction: column;
-    p{
-        @include margin(10px,10px);
-        text-align: center;
-    }
+    margin: 5px;
+    padding: 5px;
 }
 .footer__redes__iconos {
     display: flex;
@@ -39,22 +33,36 @@
 }
 
 .logo-footer{
-    width: 33hv;
+    width: 480px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .logo-footer-img {
-    width: 550px;
-    height: auto;
-}
-
-.footer__datos{
-    @include margin(10px,10px);
-    text-align: center;
+    max-width: 100%;
 }
 
 .derechos {
     text-align: center;
     span {
         font-weight: 900;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .logo-footer{
+        width: 250px;
+    }
+
+    .footer__redes__iconos{
+        font-size: 13px;
+    }
+
+    .derechos p {
+        font-size: 9px;
+    }
+
+    .derechos span{
+        font-size: 10px;
     }
 }

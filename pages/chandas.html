@@ -9,11 +9,11 @@
     <meta name="description" content="Atrapa lo mejor de tu mascota en una imagen que venza el tiempo.">
     <title>Chandas | Laureles Audiovisual</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b240f8e3d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
@@ -27,9 +27,12 @@
 
 <body>
     <header id="top" class="navBox">
-        <nav id="mySidenavCont" class="navBox__mobile chandas">
-            <span style="cursor:pointer" class="navBox__mobile__hamMenu" onclick="openNav()"><i class="fa fa-bars"></i>
-                Menu</span>
+        <nav id="mySidenavCont" class="navBox__mobile laureles">
+            <div class="navBox__mobile__hamMenu">
+                <i class="fa fa-bars"></i>
+                <span style="cursor:pointer" onclick="openNav()">Menu</span>
+            </div>
+    
             <div class="navBox__mobile__sidenav" id="mySidenav">
                 <a href="javascript:void(0)" class="closebtn navBox__mobile__sidenav--style"
                     onclick="closeNav()">&times;</a>
@@ -44,13 +47,12 @@
                     href="./contacto.html">Contacto</a>
             </div>
 
-            <div>
-                <a class="navbar-brand" href="../index.html"><img height="70" src="../images/Laureles AV_.png"
-                        alt="Logotipo Laureles Audiovisual" class='navBox__mobile__logo'></a>
+            <div class="navBox__mobile__logo">
+                <a href="../index.html"><img class="navBox__mobile__logo--img" src="../images/Laureles AV_.png" alt="Logotipo Laureles Audiovisual"></a>
             </div>
         </nav>
 
-        <nav class="navbar navbar-expand-md navBox__desktop chandas">
+        <nav class="navbar navbar-expand-md navBox__desktop laureles">
 
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -82,19 +84,20 @@
         </nav>
     </header>
 
-    <main class="chandas">
-        <section class="py-5 text-center container">
+    <main>
+        <section class="py-5 text-center container background_chandas">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <h1 class="display-4 fw-bold">Chandas</h1>
-                    <p class="lead text-muted">Con Chandas te ofrecemos la posibilidad de capturar el mejor momento de tu mascota y, así, poder llevarla siempre a donde quieras.</p>
-                    <p>
-                        <a href="./contacto.html" class="btn btn-primary my-2 boton">Contáctanos</a>
+                    <p class="lead text-white opacity">Con Chandas te ofrecemos la posibilidad de capturar el mejor momento de tu mascota y, así, poder llevarla siempre a donde quieras.</p>
+                    
+                    <a href="./contacto.html" class="botones boton">Contáctanos</a>
+                    
+                    <p class="my-3">
+                        <span class="text-white opacity">O escríbenos por</span>
                     </p>
-                    <p>
-                        O escríbenos por
-                    </p>
-                    <a href="https://wa.me/1234567890" class="btn btn-success my-2 boton" target="_blank">Whatsapp</a>
+
+                    <a href="https://wa.me/1234567890" class="botones boton" target="_blank">Whatsapp</a>
 
                 </div>
             </div>
@@ -102,138 +105,58 @@
 
         <h2 class="text-center">Galería</h2>
 
-        <div class="album py-5">
+        <div class="album pb-5">
             <div class="container">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 1</p>
-                            </div>
+                            <img src="../images/Chandas/128154117_177849980700228_9062824210486410849_n.jpg" alt="ejemplo 1" class="imagen_Album">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 2</p>
-                            </div>
+                            <img src="../images/Chandas/131999443_1100617440396112_8283519329253985941_n.jpg" alt="ejemplo 2" class="imagen_Album">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 3</p>
-                            </div>
+                            <img src="../images/Chandas/147014125_709213156448574_7750567007442139597_n.jpg" alt="ejemplo 3" class="imagen_Album">
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 4</p>
-                            </div>
+                            <img src="../images/Chandas/159503425_254280239652752_4468311223233241646_n.jpg" alt="ejemplo 4" class="imagen_Album">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 5</p>
-                            </div>
+                            <img src="../images/Chandas/165298461_1814384218764989_6121912154308349490_n.jpg" alt="ejemplo 5" class="imagen_Album">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 6</p>
-                            </div>
+                            <img src="../images/Chandas/196990539_169236291828843_3790375128581373566_n.jpg" alt="ejemplo 6" class="imagen_Album">
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 7</p>
-                            </div>
+                            <img src="../images/Chandas/218340951_4141691912592909_3493087358751041188_n.jpg" alt="ejemplo 7" class="imagen_Album">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 8</p>
-                            </div>
+                            <img src="../images/Chandas/218416539_813399212695443_4469798982800137984_n.jpg" alt="ejemplo 8" class="imagen_Album">
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-                            <div class="card-body-chandas card-body">
-                                <p class="card-text text-center">Imagen 9</p>
-                            </div>
+                            <img src="../images/Chandas/236571718_982194689282973_1733299506491377521_n.jpg" alt="ejemplo 9" class="imagen_Album">
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -252,7 +175,7 @@
                         <div class="card-header-chandas card-header py-3">
                             <h4 class="my-0 fw-normal">Express</h4>
                         </div>
-                        <div class="card-body-chandas card-body">
+                        <div class="card-body">
                             <h1 class="card-title pricing-card-title">$2800</h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li> <i class="fa fa-camera"></i> 35 minutos de sesión</li>
@@ -268,7 +191,7 @@
                         <div class="card-header-chandas card-header py-3">
                             <h4 class="my-0 fw-normal">Estándar</h4>
                         </div>
-                        <div class="card-body-chandas card-body">
+                        <div class="card-body">
                             <h1 class="card-title pricing-card-title">$3700</h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li> <i class="fa fa-camera"></i> 1 hora de sesión</li>
@@ -285,7 +208,7 @@
                         <div class="card-header-chandas card-header py-3">
                             <h4 class="my-0 fw-normal">Exclusiva</h4>
                         </div>
-                        <div class="card-body-chandas card-body">
+                        <div class="card-body">
                             <h1 class="card-title pricing-card-title">$5200</h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li> <i class="fa fa-camera"></i> 2 horas de shooting</li>
@@ -302,36 +225,27 @@
 
     </main>
 
-    <footer class="chandas">
+    <footer class="laureles">
         <div class="footer">
             <!--Iconos redes sociales-->
-        <div class="footer__redes">
-            <p>Visítanos en:</p>
-            <div class="footer__redes__iconos">
-                <a href="http://www.facebook.com/" target="_blank"><i
-                        class="fa fa-facebook-square fa-2x footer__redes__iconos--color"></i></a>
-                <a href="http://www.instagram.com/" target="_blank"><i
-                        class="fa fa-instagram fa-2x footer__redes__iconos--color"></i></a>
-                <a href="http://www.youtube.com/" target="_blank"><i
-                        class="fa fa-youtube-play fa-2x footer__redes__iconos--color"></i></a>
+            <div>
+                <div class="logo-footer">
+                    <img class="logo-footer-img" src="../images/Laureles AV_.png" alt="Logo">
+                </div>
             </div>
-        </div>
-
-        <div>
-            <div class="logo-footer">
-                <img class="logo-footer-img" src="../images/Laureles AV_.png" alt="Logo">
+            <div class="footer__redes">
+                <div class="footer__redes__iconos">
+                    <a href="http://www.facebook.com/" target="_blank"><i
+                            class="fa fa-facebook-square fa-2x footer__redes__iconos--color"></i></a>
+                    <a href="http://www.instagram.com/" target="_blank"><i
+                            class="fa fa-instagram fa-2x footer__redes__iconos--color"></i></a>
+                    <a href="http://www.youtube.com/" target="_blank"><i
+                            class="fa fa-youtube-play fa-2x footer__redes__iconos--color"></i></a>
+                </div>
             </div>
-        </div>
 
-        <div class="footer__datos">
-            <p>Dirección:</p>
-            <p>Calle1, 1234, Ciudad</p>
-            <p>Teléfono:</p>
-            <p>12345678</p>
-        </div>
-        </div>
         <div class="derechos">
-            <p>Creado por <span>Andrés Andrade</span><i class="fa fa-copyright"></i></p>
+            <p>By <span>Andrés Andrade</span><i class="fa fa-copyright"></i></p>
         </div>
 
     </footer>

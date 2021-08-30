@@ -9,11 +9,30 @@
     }
     
     .navBox__mobile {
-        display:flex;
-        flex-direction: row;
-        @include flex-positioning(stretch,center);
         height: 50px;
-        column-gap: 40%;
+    }
+
+    .navBox__mobile__logo{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navBox__mobile__logo--img{
+        padding: 10px;
+        max-height: 100%;
+    }
+
+    .navBox__mobile__hamMenu{
+        position: absolute;
+        top: 12px;
+        left: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        & i, span{
+            font-size: 11px;
+        }
     }
     
     .navBox__mobile__sidenav {
@@ -65,12 +84,15 @@
             @include flex-positioning(space-between,center);
             justify-content:space-between;
             align-items: center;
-            height: 50px;
+            height: 55px;
             width: 100hw;
+            padding: 25px;
         }
     
         .navBox__desktop__logo {
-            height: 250px;
+            width: 150px;
+            height: auto;
+            padding: 25px;
         }
     
          
