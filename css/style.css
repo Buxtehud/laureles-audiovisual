@@ -246,6 +246,9 @@ h2 {
 .contact-marcado {
   font-weight: 700; }
 
+.cajita_contactos {
+  width: 195px; }
+
 .icono {
   width: 50px;
   height: 50px;
@@ -255,6 +258,16 @@ h2 {
 .form-group {
   margin: 5px;
   padding: 5px; }
+
+@media only screen and (max-width: 767px) {
+  .ftco-section {
+    width: 95vw;
+    margin: 0;
+    padding: 15px; }
+  .contact-marcado {
+    font-size: 14px; }
+  .contact-info {
+    width: 100vw; } }
 
 .opacity {
   background-color: #788A9650;
