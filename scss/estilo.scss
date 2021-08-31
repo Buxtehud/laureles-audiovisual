@@ -56,3 +56,17 @@ main {
 .text-muted-eco {
     color: $laureles-1;
 }
+
+@media only screen and (max-width: 767px) {
+    .video-presentacion{
+        width:80vw;
+        height:250px;
+    }   
+}
+
+@media only screen and (min-width: 768px) {
+    .video-presentacion{
+        width:560px;
+        height:315px;
+    }   
+}
